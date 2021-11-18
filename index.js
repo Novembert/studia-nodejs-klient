@@ -9,8 +9,8 @@ client.connect(8787, '127.0.0.1', () => {
   console.log('connected')
 })
 
-client.on('data', async function(data) {
-	console.log('Received: ' + data);
+client.on('data', function(data) {
+  setTimeout(async () => {console.log('Received: ' + data);
   let dataString = String(data)
 
   if (dataString.includes('NAME')) {
@@ -34,7 +34,8 @@ client.on('data', async function(data) {
   
   if (dataString.includes('SUCCESS') || dataString.includes('FAILED')) {
     client.end();
-  }
+  }}, 150)
+	
 
 });
 
