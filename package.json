@@ -1,0 +1,19 @@
+{
+  "name": "studia-nodejs-klient",
+  "version": "1.0.0",
+  "description": "Zadanie na studia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novembert/studia-nodejs-klient.git"
+  },
+  "author": "Norbert Bujny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novembert/studia-nodejs-klient/issues"
+  },
+  "homepage": "https://github.com/Novembert/studia-nodejs-klient#readme"
+}
